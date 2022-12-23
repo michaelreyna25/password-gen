@@ -9,18 +9,20 @@ const specialCharacters = ["!","@","#","$","%","&","?"];
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+
 function generatePassword() {
-  promptLength = prompt("Choose between 8 and 128 characters.")
+  promptLength = window.prompt("Choose between 8 and 128 characters.")
   if (7 < promptLength && promptLength < 129){
-    for (characterChoice = false; characterChoice== true;){
-    choseLC = confirm ("Would you like to have lower case letters?")
-    choseUC = confirm ("Would you like to have upper case letters?")
-    choseNum = confirm ("Would you like to have numbers?")
-    choseSP = confirm ("Would you like to have special characters?")
+    for (!characterChoice; characterChoice== true;){
+      choseLC = confirm ("Would you like to have lower case letters?")
+      choseUC = confirm ("Would you like to have upper case letters?")
+      choseNum = confirm ("Would you like to have numbers?")
+      choseSP = confirm ("Would you like to have special characters?")
     if (!choseLC && choseUC && choseNum && choseSP){
 
     } else {
         characterChoice = true
+        
     }}
   } else {
     alert("Not a valid password length.")
@@ -56,5 +58,5 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", generatePassword);
 
