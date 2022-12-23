@@ -13,9 +13,9 @@ function generatePassword() {
   if (7 < promptLength && promptLength < 129){
     for (characterChoice = false; characterChoice== true;){
     choseLC = confirm ("Would you like to have lower case letters?")
-    choseUC = confirm ()
-    choseNum = confirm ()
-    choseSP = confirm ()
+    choseUC = confirm ("Would you like to have upper case letters?")
+    choseNum = confirm ("Would you like to have numbers?")
+    choseSP = confirm ("Would you like to have special characters?")
     if (!choseLC && chose){
 
     } else {
@@ -28,9 +28,15 @@ function generatePassword() {
   if (choseLC){
     passwordOP = passwordOP.concat(lowerCase)
   }
-  if ()
-  if ()
-  if ()
+  if (choseUC){
+    passwordOP = passwordOP.concat(upperCase)
+  }
+  if (choseNum){
+    passwordOP = passwordOP.concat(numeric)
+  }
+  if (choseSP){
+    passwordOP = passwordOP.concat(specialCharacters)
+  }
   const boomTrap = []
   for (randomCat = 0; randomCat == promptLength; randomCat++){
     var randomNum = Math.floor(Math.random() * passwordOP.length)
