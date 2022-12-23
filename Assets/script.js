@@ -8,6 +8,7 @@ const specialCharacters = ["!","@","#","$","%","&","?"];
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+
 function generatePassword() {
   promptLength = prompt("Choose between 8 and 128 characters.")
   if (7 < promptLength && promptLength < 129){
@@ -16,7 +17,7 @@ function generatePassword() {
     choseUC = confirm ("Would you like to have upper case letters?")
     choseNum = confirm ("Would you like to have numbers?")
     choseSP = confirm ("Would you like to have special characters?")
-    if (!choseLC && chose){
+    if (!choseLC && choseUC && choseNum && choseSP){
 
     } else {
         characterChoice = true
