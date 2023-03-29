@@ -19,18 +19,7 @@ Password Generator is a password generator that can generate a complex password 
 
 Clone this repository to your local device using git clone
 
-## Usage 
-
-
-```md
-![Click generate](./Images/Screenshot_20221223_125110.png)
-![A prompt will apear](/Images/Screenshot_20221223_125131.png)
-![choose if u want lower case](/Images/Screenshot_20221223_125141.png)
-![choose if u want upper case](/Images/Screenshot_20221223_125150.png)
-![choose if you want numbers](/Images/Screenshot_20221223_125157.png)
-![choose if you want specical characters](/Images/Screenshot_20221223_125204.png)
-```
-
+![image](./Assets/page.png)
 
 ## Credits
 
