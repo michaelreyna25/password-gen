@@ -12,34 +12,31 @@ var generateBtn = document.querySelector("#generate");
 
 
 function generatePassword() {
-  promptLength = window.prompt("Choose between 8 and 128 characters.")
-  if (7 < promptLength && promptLength < 129){
-    choseLC = confirm ("Would you like to have lower case letters?")
-      choseUC = confirm ("Would you like to have upper case letters?")
-      choseNum = confirm ("Would you like to have numbers?")
-      choseSP = confirm ("Would you like to have special characters?")
-    } else {
-      alert("Not a valid password length.")
-    } 
   var passwordOP = []
-  if (choseLC){
-    passwordOP = passwordOP.concat(lowerCase)
+
+ const promptLength = window.prompt("Choose between 8 and 128 characters.")
+  if (promptLength < 8 || promptLength > 128){
+      alert("Not a valid password length.");
+      return "Error: Invalid password"
+    } 
+  if (confirm("would you like lowercase letters?")){
+    passwordOP.push(lowerCase);
   }
-  if (choseUC){
-    passwordOP = passwordOP.concat(upperCase)
+  if (confirm("Would you like Uppercase letters?")){
+    passwordOP.push(upperCase);
   }
-  if (choseNum){
-    passwordOP = passwordOP.concat(numeric)
+  if (confirm("Would you like numbers?")){
+    passwordOP.push(numeric);
   }
-  if (choseSP){
-    passwordOP = passwordOP.concat(specialCharacters)
+  if (confirm("Would you like Special Characters?")){
+    passwordOP.push(specialCharacters)
   }
-  const boomTrap = []
-  for (randomCat = 0; randomCat == promptLength; randomCat++){
-    var randomNum = Math.floor(Math.random() * passwordOP.length)
-    boomTrap.push(passwordOP[randomNum])
+  let password = "";
+  const sutiableCharaters = passwordOP.join("").split("");
+  for (let i = 0; i < promptLength; i++){
+    password += sutiableCharaters[Math.floor(Math.random() * sutiableCharaters.length)];
   }
-  return boomTrap
+  return password;
 }
 
 // Write password to the #password input
