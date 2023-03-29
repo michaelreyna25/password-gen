@@ -1,46 +1,68 @@
-# Password-gen
+# Password Generator
 
-## Description 
+## Description
 
-Password Generator is a password generator that can generate a complex password between 8 and 128 characters.
+[Click here for Deployed Site](https://michaelreyna25.github.io/password-gen/)
 
-![Deployed Webiste]( https://michaelreyna25.github.io/password-gen/)
+
+## Images
+
+![image]()
+
 ## Table of Contents 
-
-* [Description](#description)
-* [Installation](#installation)
 * [Usage](#usage)
+* [Technology Used](#technology-used)
+* [Learning Points](#learning-points)
+* [Author Info](#author-info)
 * [Credits](#credits)
 * [License](#license)
-* [Features](#features)
+
+## Usage
+
+## Technology Used
+
+| Technology Used         | Resource URL           | 
+| ------------- |:-------------:| 
+|     |  | 
+|      |       |   
+| Git |      |  
 
 
-## Installation
-
-Clone this repository to your local device using git clone
-
-![image](./Assets/page.png)
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+## Learning Points
 
 
+
+## Author Info
+
+### Michael Reyna
+[LinkedIn](https://www.linkedin.com/in/michael-reyna-35b597245/)
+
+[GitHub](https://github.com/michaelreyna25)
+## Credits 
+
+|Resource | Link |
+|-------|:-------:|
+| |  |
+|      |    |
 ## License
+MIT License
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+Copyright (c) [2023] [Michael Anthony Reyna]
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
----
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-
-## Features
-
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
